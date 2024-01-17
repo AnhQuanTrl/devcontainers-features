@@ -1,0 +1,19 @@
+{
+    "name": "neovim (via github release)",
+    "id": "neovim",
+    "version": "1.0.0",
+    "description": "Vim-fork focused on extensibility and usability ",
+    "options": {
+    	"version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+    	"ghcr.io/devcontainers-contrib/features/gh-release"
+    ]
+}
